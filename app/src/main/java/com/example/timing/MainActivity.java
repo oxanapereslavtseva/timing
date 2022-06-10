@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //dbHelper = new DBHelper(this);
-        //Установка заголовка
+        //Установка заголовка.
         setTitle("Расписание");
         //Обработка кнопок
         btnStudents = (Button) findViewById(R.id.students);
