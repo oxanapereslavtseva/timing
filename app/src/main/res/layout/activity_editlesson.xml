@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id занятия"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="20sp"
+        android:textStyle="bold">
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <Button
+        android:id="@+id/showlesson"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background = "@drawable/roundedbutton"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Показать"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+     <TextView
+         android:id="@+id/themeLes"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Тема"
+         android:gravity="center"
+         android:textSize="20sp"
+         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/etTheme"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <TextView
+        android:id="@+id/dateLes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <TextView
+        android:id="@+id/timeLes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Время"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <TextView
+        android:id="@+id/statusLes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус занятия"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/etStatus"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id ученика "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <EditText
+        android:id="@+id/etIdStudent"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stedit"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="5sp"/>
+
+    <Button
+        android:id="@+id/savelesson"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background = "@drawable/roundedbutton"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Сохранить"/>
+</LinearLayout> </ScrollView>
+</LinearLayout>

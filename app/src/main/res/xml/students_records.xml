@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+    <record id ="1" name="Попова Наталья" phones="8(915)7453249" rank="9" />
+    <record id ="2" name="Кузин Артем" phones="8(962)3333249" rank="9" />
+    <record id ="3" name="Данилова Анастасия" phones="8(953)4893249" rank="9" />
+    <record id ="4" name="Рябов Андрей" phones="8(910)5453249" rank="10" />
+</students>

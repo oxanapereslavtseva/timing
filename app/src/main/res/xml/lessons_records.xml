@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lessons>
+    <record id ="1" theme="Арифметическая прогрессия" date="1/05" time="10.00" status="1" idStudent="1"/>
+    <record id ="2" theme="Геометрическая прогрессия" date="8/05" time="10.00" status="1" idStudent="2"/>
+    <record id ="3" theme="Теорема синусов" date="15/05" time="10.00" status="2" idStudent="1"/>
+    <record id ="4" theme="Площади четырехугольников" date="22/05" time="10.00" status="1" idStudent="2"/>
+    <record id ="5" theme="Алгебраические уравнения" date="2/06" time="10.00" status="1" idStudent="4"/>
+    <record id ="6" theme="Показательные уравнения" date="9/06" time="10.00" status="0" idStudent="4"/>
+    <record id ="7" theme="Показательные уравнения" date="10/06" time="11.00" status="0" idStudent="2"/>
+    <record id ="8" theme="Логарифмические уравнения" date="16/06" time="10.00" status="0" idStudent="4"/>
+    <record id ="9" theme="Тригонометрические уравнения" date="23/06" time="10.00" status="0" idStudent="4"/>
+
+</lessons>
